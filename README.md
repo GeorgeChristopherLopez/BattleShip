@@ -17,21 +17,14 @@ Build -> Build Project
 Run -> Run.. -> BattleShip
 
 	
-
-enter a number  1
-
-miss
-
-enter a number  2
-
-hit
-
-enter a number  3
-
-hit
-
-enter a number  4
-
-kill
-
-You took 4 guesses
+<code>
+enter a number  1 <br>
+miss<br>
+enter a number  2<br>
+hit<br>
+enter a number  3<br>
+hit<br>
+enter a number  4<br>
+kill<br>
+You took 4 guesses<br>
+</code>
