@@ -1,11 +1,11 @@
 Battle Ship
 ==============
 
-George Lopez 
-completed as part of
+George Lopez <br/>
+completed as part of<br/>
 Head First Java 2nd Edition - Fall 2019 
 
-*Java SE Development Kit 13*
+*Java SE Development Kit 13*<br/>
 *IntelliJ IDE*
 
 Usage
@@ -17,14 +17,13 @@ Build -> Build Project
 Run -> Run.. -> BattleShip
 
 	
-<code>
-enter a number  1 <br>
-miss<br>
-enter a number  2<br>
-hit<br>
-enter a number  3<br>
-hit<br>
-enter a number  4<br>
-kill<br>
-You took 4 guesses<br>
-</code>
+
+    enter a number  1 
+    enter a number  2
+    hit
+    enter a number  3
+    hit
+    enter a number  4
+    kill
+    You took 4 guesses
+
