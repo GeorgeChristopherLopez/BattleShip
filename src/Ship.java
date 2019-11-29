@@ -22,7 +22,7 @@ public class Ship {
                 result = "hit";
             }
         }
-        System.out.println(result);
+        //System.out.println(result);
 
         return result;
     }

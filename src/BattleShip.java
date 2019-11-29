@@ -37,21 +37,14 @@
                 ship1.name = "jenny";
                 ship2.name = "jenny2";
                 ship3.name = "jenny3";
-                //ADD the DotComs to the dotComsList ( the ArrayList).
+                //ADD the ships to the shipList ( the ArrayList).
                 shipList.add(ship1);
                 shipList.add(ship2);
                 shipList.add(ship3);
 
-
-
-
-                //REPEAT with each of the DotCom objects in the dotComsList array
-                //CALL the placeDotCom() method on the helper object, to get a randomly-selected
-                //location for this DotCom (three cells, vertically or horizontally aligned, on a 7 X 7 grid).
-                //SET the location for each DotCom based on the result of the placeDotCom() call.
-                for (Ship ship : shipList ){
+                for (Ship shipToSet : shipList ){
                   ArrayList<String> newLocation = helper.placeShip(3);
-                  ship.setLocationCells(newLocation);
+                  shipToSet.setLocationCells(newLocation);
                 //END REPEAT
                 }
                 //END METHOD
@@ -59,17 +52,11 @@
 
             void startPlaying(){
 
-
-                //DECLARE a checkUserGuess() method that loops through all remaining DotCom objects and
-                //calls each DotCom object’s checkYourself() method.
-
                 while(!shipList.isEmpty()){
                     String userGuess = helper.getUserInput("enter a number ");
                     checkUserGuess(userGuess);
                 }
 
-                //DECLARE a finishGame() method that prints a message about the user’s performance, based
-                //on how many guesses it took to sink all of the DotCom objects.
                 finishGame();
             }
 
